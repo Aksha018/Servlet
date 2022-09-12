@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">  
+  
+   <context-param>
+        <param-name>name</param-name>
+        <param-value>Aksha</param-value>
+   </context-param> 
+
+  <servlet>  
+    <description></description>  
+    <display-name>RequestDispatcherExample</display-name>  
+    <servlet-name>RequestDispatcherExample</servlet-name>  
+    <servlet-class>com.chainsys.servlet.RequestDispatcherExample</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>RequestDispatcherExample</servlet-name>  
+    <url-pattern>/RequestDispatcherExample</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>RequestForward</display-name>  
+    <servlet-name>RequestForward</servlet-name>  
+    <servlet-class>com.chainsys.servlet.RequestForward</servlet-class> 
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>RequestForward</servlet-name>  
+    <url-pattern>/RequestForward</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>ServletConf</display-name>  
+    <servlet-name>ServletConf</servlet-name>  
+    <servlet-class>com.chainsys.servlet.ServletConf</servlet-class>  
+     <init-param>
+            <param-name>phone</param-name>
+            <param-value>9884598845</param-value>
+      </init-param> 
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ServletConf</servlet-name>  
+    <url-pattern>/ServletConf</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>  
+    <description></description>  
+    <display-name>ServletContex</display-name>  
+    <servlet-name>ServletContex</servlet-name>  
+    <servlet-class>com.chainsys.servlet.ServletContex</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ServletContex</servlet-name>  
+    <url-pattern>/ServletContex</url-pattern>  
+  </servlet-mapping> 
+
+</web-app>  

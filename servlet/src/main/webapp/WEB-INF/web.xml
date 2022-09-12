@@ -53,5 +53,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
     <servlet-name>ServletContex</servlet-name>  
     <url-pattern>/ServletContex</url-pattern>  
   </servlet-mapping> 
-
+  
+  <servlet>
+  <servlet-name>FilterServlet</servlet-name>
+  <servlet-class>com.chainsys.servlet.FilterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>FilterServlet</servlet-name>
+  <url-pattern>/FilterServlet</url-pattern>
+  </servlet-mapping>
+  
+  
 </web-app>  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>Book Management</title>  
+</head>  
+<body>  
+  
+<h1>Add New Books</h1>  
+<form action="AddBooks" method="post">  
+<table>  
+<tr><td>Book Id:</td><td><input type="text" name="bookId" required="true"/></td></tr>  
+<tr><td>Book Name:</td><td><input type="text" name="bookName" pattern="^[a-z A-Z]+$" title="Please Enter Alphabtes Only" required="true"/></td></tr>  
+<tr><td>Author :</td><td><input type="text" name="author" pattern="^[a-z A-Z]+$" title="Please Enter Alphabtes Only" required="true"/></td></tr>  
+<tr><td>Publishing Year:</td><td><input type="text" name="publishingYear" required="true"/></td></tr>
+<tr><td>Price :</td><td><input type="text" name="price" required="true"/></td></tr>   
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Add"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+
+<a href="BookList">Book List</a>  
+  
+</body>  
+</html> 
